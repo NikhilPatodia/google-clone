@@ -13,7 +13,7 @@ const CountryName = () => {
     }, [])
     
   return (
-    <div>{country || "United States"}</div>
+    <div>{country}</div>
   )
 }
 

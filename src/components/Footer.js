@@ -1,9 +1,10 @@
+"use client"
 import React from 'react'
 import CountryName from './CountryName'
 
 const Footer = () => {
   return (
-    <footer className='w-full  flex flex-col space-y-3 bg-[#eaeef2] absolute bottom-0'>
+    <footer className='w-full h-fit  flex flex-col space-y-3 bg-[#eaeef2] absolute bottom-0'>
         <div className='border-b-2 px-8 py-3 text-gray-500'>
             <CountryName/>
         </div>
