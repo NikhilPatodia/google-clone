@@ -1,5 +1,5 @@
 
-import SearchBox from '@/components/SearchBox'
+import SearchHeader from '@/components/SearchHeader'
 import '../globals.css'
 
 
@@ -8,7 +8,7 @@ export default function SearchLayout({ children }) {
   return (
    
       <div>
-          <SearchBox/>
+          <SearchHeader/>
           {children}
       
       </div>
